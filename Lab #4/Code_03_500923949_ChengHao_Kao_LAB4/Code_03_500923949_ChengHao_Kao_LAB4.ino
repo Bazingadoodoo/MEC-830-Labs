@@ -3,7 +3,7 @@
 Servo myservo;
 
 #define echoPin 5
-#define trigPin 4 
+#define trigPin 4
 
 long duration;
 int distance_cm;
