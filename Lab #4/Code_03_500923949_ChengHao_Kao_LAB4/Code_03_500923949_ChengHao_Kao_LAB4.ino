@@ -11,12 +11,13 @@ int pos = 0;
 
 void setup()
 {
-  Serial.begin(115200);
+  Serial.begin(9600);
   Serial.setTimeout(1);
   pinMode(trigPin, OUTPUT); 
   pinMode(echoPin, INPUT);  
-  myservo.attach(3);
+  myservo.attach(6);
   Serial.println("Radar Start");
+  //myservo.write(180);
 }
 
 void loop()
